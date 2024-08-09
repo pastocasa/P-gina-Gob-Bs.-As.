@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.rectangulo{
+    border: 1px solid rgba(128, 128, 128, 0.589);
+    border-radius: 7px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.rectangulo:hover{
+    border: 2px solid rgb(0, 150, 209);
+}
+
+header{
+    border-bottom: 5px solid rgb(48, 133, 243);
+}
+
+#logo{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+#login{
+    border: 2px solid rgb(39, 114, 212);
+    border-radius: 5%;
+    padding: 2%;
+}
+
+#car{
+    border: 2px solid black;
+    padding: 10%;
+}
