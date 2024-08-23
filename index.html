@@ -1,13 +1,12 @@
 <html>
 <head>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/hoomanbahreini/bootstrap-half-and-quarter-grid/fractional-grid.css https://cdn.jsdelivr.net/gh/hoomanbahreini/bootstrap-half-and-quarter-grid/fractional-grid.min.css"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
@@ -22,34 +21,155 @@
         </div>
     </header>
 
-    <div class="div-12" id="car">Carrousel vac&iacute;o por ahora</div>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            
+            <div class="item active">
+                <img src="img/Carousel1.jpg" width="100%" class="marg-neg">
+            </div>
 
-    <div class="col-12 flex">
+            <div class="item">
+                <img src="img/Carousel2.jpg" width="100%" class="marg-neg">
+            </div>
+
+            <div class="item">
+                <img src="img/Carousel3.png" width="100%" class="marg-neg-sm">
+            </div>
+
+            <div class="item">
+                <img src="img/Carousel4.jpeg" width="100%" class="marg-neg-lg">
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="col-12 flex color">
         <div class="col-1 "></div>
         <div class="col-10" id="tram-ser">
 
-            <h3 class="p-2">Tr&aacute;mites y Servicios</h3>
+            <h2 class="p-2">Tr&aacute;mites y Servicios</h2>
 
-            <div class="col-12 flex">
+            <div class="col-12 flex margin">
                 <div class="col-5 rectangulo flex">
                     <img src="img/Ambiente.svg" class="col-4">
                     <div class="col-8">
-                        <a>
                         <h5>Ambiente, espacio p&uacute;blico y edilicio</h5>
                         <h6>Habilitaciones para el uso de la v&iacute;a p&uacute;blica, espacios urbanos y servicios para el desarrollo sostenible.</h6>
-                        </a>
                     </div>
                 </div>
-    
+
                 <div class="col-2"></div>
-                
-                <div class="col-5 rectangulo">
+
+                <div class="col-5 rectangulo flex">
                     <img src="img/Cultura.svg" class="col-4">
+                    <div class="col-8">
+                        <h5>Comunidad, arte y cultura</h5>
+                        <h6>Actividades y servicios culturales, asistencia para artistas, gestores y espacios de la cultura.</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 flex margin">
+                <div class="col-5 rectangulo flex">
+                    <img src="img/Seguridad.svg" class="col-4">
+                    <div class="col-8"></div>
+                </div>
+
+                <div class="col-2"></div>
+
+                <div class="col-5 rectangulo flex">
+                    <img src="img/Educacion.svg" class="col-4">
                     <div class="col-8"></div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="col-12 flex color-2">
+        <div class="col-1"></div>
+        <div class="col-10" id="tram-ser">
+
+            <h3 class="p-2">&Aacute;reas de gobierno</h3>
+
+            <div class="col-12 flex margin">
+                <div class="col-4">
+                    <div class="col-12 rectangulo gob padding">
+                        Jefatura de Gobierno
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-12 rectangulo gob padding">
+                        Vicejefatura de Gobierno
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-12 rectangulo gob padding">
+                        Jefatura de Gabinete de Ministros
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 flex margin">
+                <div class="col-4">
+                    <div class="col-12 rectangulo gob padding">
+                        Ministro de Cultura
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-12 rectangulo gob padding">
+                        Ministro de Desarollo Econ&oacute;mico
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-12 rectangulo gob padding">
+                        Ministro de Desarollo Humano y H&aacute;bitat
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 flex margin">
+                <div class="col-4">
+                    <div class="col-12 rectangulo gob padding">
+                        Ministro de Educac&iacute;on
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-12 rectangulo gob padding">
+                        Ministro de Justicia
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-12 rectangulo gob padding">
+                        Ministro de Seguridad
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="div-footer">
+            <h4 class="letra-bl">Tel&eacute;fonos &uacute;tiles</h4>
+            <div class="flex">
+                <h4 class="letra-bl sub">102 - Ni&ntilde;ez y Adolescencia</h4><h4 class="letra-bl sub">103 - Emergencias</h4><h4 class="letra-bl sub">107 - SAME</h4><h4 class="letra-bl sub">911 - Polic&iacute;a</h4><h4 class="letra-bl sub"> 144 - Violencia de g&eacute;nero</h4><h4 class="letra-bl sub"> 147 - Atenci&oacute;n ciudadana   </h4>
+            </div>
+            <h4 class="letra-bl sub">Ver todos los tel&eacute;fonos</h4>
+        </div>
+        <div class="div-footer">
+            <img src="img/ciudad-ba-logo.svg"> <img src="img/vamos-ba-logo.svg">
+            <div class="flex">
+                <h4 class="letra-bl sub">Bolet&iacute;n oficial</h4><h4 class="letra-bl sub">T&eacute;rminos y condiciones</h4><h4 class="letra-bl sub">Pol&iacute;tica de privacidad</h4><h4 class="letra-bl sub">Oficios judiciales</h4><h4 class="letra-bl sub">Transparencia</h4>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
